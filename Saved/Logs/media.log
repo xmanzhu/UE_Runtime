@@ -4055,3 +4055,483 @@ LogInit: Object subsystem initialized
 [2023.07.19-03.21.33:800][226]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Untitled_Auto86D9BC24A46B662455B1E0AB19217B165.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto8.umap'
 [2023.07.19-03.21.33:809][226]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Untitled' took 0.086
 [2023.07.19-03.21.33:809][226]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.086
+[2023.07.19-03.31.07:250][854]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=扬声器 (C-Media(R) Audio), InstanceID=1
+[2023.07.19-03.31.07:521][854]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31024
+[2023.07.19-03.31.07:855][855]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{98d985f0-bb64-4b76-8ae2-21a2951ab152}, Name=扬声器 (C-Media(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=39.22
+[2023.07.19-03.31.07:855][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.07.19-03.31.07:856][855]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.19-03.37.12:385][448]LogDerivedDataCache: C:/Users/3647/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:25.257 and deleted 0 files with total size 0 MiB. Scanned 11867 files in 11536 folders with total size 869 MiB.
+[2023.07.19-04.37.09:204][214]LogDerivedDataCache: C:/Users/3647/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.076 and deleted 0 files with total size 0 MiB. Scanned 11867 files in 11536 folders with total size 869 MiB.
+[2023.07.19-05.37.09:190][ 11]LogDerivedDataCache: C:/Users/3647/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.060 and deleted 0 files with total size 0 MiB. Scanned 11867 files in 11536 folders with total size 869 MiB.
+[2023.07.19-06.01.19:629][474]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.19-06.01.19:634][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.19-06.01.19:634][474]PIE: New page: PIE会话：Untitled（2023年7月19日 下午10:01:19）
+[2023.07.19-06.01.19:634][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.01.19:636][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001795s)
+[2023.07.19-06.01.19:636][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.001832s)
+[2023.07.19-06.01.19:636][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.01.19:637][474]LogAIModule: Creating AISystem for world Untitled
+[2023.07.19-06.01.19:637][474]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2023.07.19-06.01.19:713][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.07.19-06.01.19:725][474]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.19-06.01.19:725][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.19-06.01.19:725][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.19-06.01.19:726][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.19-06.01.19:726][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.19-06.01.19:726][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.19-06.01.19:755][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.19-06.01.19:771][474]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (C-Media(R) Audio)
+[2023.07.19-06.01.19:771][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.19-06.01.19:771][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.19-06.01.19:771][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.19-06.01.19:772][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2023.07.19-06.01.19:772][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2023.07.19-06.01.19:773][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2023.07.19-06.01.19:773][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2023.07.19-06.01.19:774][474]LogInit: FAudioDevice initialized.
+[2023.07.19-06.01.19:774][474]LogAudio: Display: Audio Device (ID: 45) registered with world 'Untitled'.
+[2023.07.19-06.01.19:776][474]LogLoad: Game class is 'GM_LockMouse_C'
+[2023.07.19-06.01.19:777][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2023.07.19-14.01.19
+[2023.07.19-06.01.19:777][474]LogWorld: Bringing up level for play took: 0.000667
+[2023.07.19-06.01.19:779][474]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.07.19-06.01.19:779][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.19-06.01.19:779][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.01.19:779][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.07.19-06.01.19:779][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.01.19:780][474]PIE: 登陆的服务器
+[2023.07.19-06.01.19:780][474]PIE: PIE总开始时间：0.147秒。
+[2023.07.19-06.01.22:676][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.01.22:676][642]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.01.22:676][642]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.19-06.01.22:676][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.01.22:683][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.19-06.01.22:683][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.01.22:703][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.01.22:703][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.07.19-06.01.22:706][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.07.19-06.01.22:711][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.19-06.01.22:747][643]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.07.19-06.01.23:775][704]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.19-06.01.23:781][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.19-06.01.23:781][704]PIE: New page: PIE会话：Untitled（2023年7月19日 下午10:01:23）
+[2023.07.19-06.01.23:781][704]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.01.23:783][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001786s)
+[2023.07.19-06.01.23:783][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.001824s)
+[2023.07.19-06.01.23:783][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.01.23:783][704]LogAIModule: Creating AISystem for world Untitled
+[2023.07.19-06.01.23:783][704]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2023.07.19-06.01.23:804][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.07.19-06.01.23:806][704]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.19-06.01.23:806][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.19-06.01.23:806][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.19-06.01.23:807][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.19-06.01.23:807][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.19-06.01.23:807][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.19-06.01.23:808][704]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.19-06.01.23:825][704]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (C-Media(R) Audio)
+[2023.07.19-06.01.23:825][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.19-06.01.23:825][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.19-06.01.23:825][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.19-06.01.23:825][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2023.07.19-06.01.23:825][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2023.07.19-06.01.23:827][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2023.07.19-06.01.23:827][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2023.07.19-06.01.23:827][704]LogInit: FAudioDevice initialized.
+[2023.07.19-06.01.23:827][704]LogAudio: Display: Audio Device (ID: 46) registered with world 'Untitled'.
+[2023.07.19-06.01.23:830][704]LogLoad: Game class is 'GM_LockMouse_C'
+[2023.07.19-06.01.23:830][704]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2023.07.19-14.01.23
+[2023.07.19-06.01.23:830][704]LogWorld: Bringing up level for play took: 0.000538
+[2023.07.19-06.01.23:832][704]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.07.19-06.01.23:833][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.19-06.01.23:833][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.01.23:833][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.07.19-06.01.23:833][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.01.23:833][704]PIE: 登陆的服务器
+[2023.07.19-06.01.23:834][704]PIE: PIE总开始时间：0.053秒。
+[2023.07.19-06.01.30:382][ 93]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:397][ 94]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:414][ 95]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:430][ 96]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:446][ 97]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:463][ 98]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:480][ 99]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:496][100]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:513][101]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:530][102]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:546][103]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:563][104]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:580][105]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:596][106]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:613][107]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.30:630][108]PIE: Warning: 如果需要移动，则/Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.Floor：StaticMeshComponent0的移动性必须为“可移动”。 
+[2023.07.19-06.01.38:428][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.01.38:428][573]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.01.38:428][573]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.19-06.01.38:428][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.01.38:439][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.19-06.01.38:439][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.01.38:455][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.01.38:455][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.07.19-06.01.38:457][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.07.19-06.01.38:462][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.19-06.01.38:567][574]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.07.19-06.01.45:377][975]LogSlate: Window '消息日志' being destroyed
+[2023.07.19-06.01.45:387][975]LogSlate: Window '消息日志' being destroyed
+[2023.07.19-06.01.59:789][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_BaseMovement.BP_BaseMovement
+[2023.07.19-06.01.59:790][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.02.27:658][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.07.19-06.02.27:660][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Untitled" FILE="C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.07.19-06.02.27:667][ 59]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Untitled_Auto9
+[2023.07.19-06.02.27:667][ 59]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Untitled_Auto952F5E3844238757195C62E8EBA68AA06.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto9.umap'
+[2023.07.19-06.02.27:673][ 59]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Untitled' took 0.040
+[2023.07.19-06.02.27:673][ 59]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2023.07.19-06.12.28:382][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.07.19-06.12.28:387][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Untitled" FILE="C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.07.19-06.12.28:393][ 39]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Untitled_Auto0
+[2023.07.19-06.12.28:393][ 39]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Untitled_Auto0BCFB8E7C4E3639E32433B2A47281AF73.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto0.umap'
+[2023.07.19-06.12.28:402][ 39]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Untitled' took 0.052
+[2023.07.19-06.12.28:402][ 39]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.052
+[2023.07.19-06.12.28:402][ 39]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BP_BaseMovement] ([2] browsable assets)...
+[2023.07.19-06.12.28:402][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_BaseMovement]
+[2023.07.19-06.12.28:402][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_BaseMovement" FILE="C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/BluePrints/BP_BaseMovement_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2023.07.19-06.12.28:415][ 39]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/BP_BaseMovement_Auto0
+[2023.07.19-06.12.28:417][ 39]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/BP_BaseMovement_Auto031E51DEB40E57024D351398C5BE78A91.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/BluePrints/BP_BaseMovement_Auto0.uasset'
+[2023.07.19-06.12.28:417][ 39]LogFileHelpers: Auto-saving content packages took 0.015
+[2023.07.19-06.12.46:210][ 93]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=耳机 (OPPO Enco X2), InstanceID=1
+[2023.07.19-06.12.46:303][ 93]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31024
+[2023.07.19-06.12.46:636][ 94]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c51156b0-ff24-4b7e-8809-6970064037cc}, Name=耳机 (OPPO Enco X2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=47.60
+[2023.07.19-06.12.46:636][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.07.19-06.12.46:638][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.19-06.12.50:207][105]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=扬声器 (C-Media(R) Audio), InstanceID=1
+[2023.07.19-06.12.50:302][105]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31024
+[2023.07.19-06.12.50:637][106]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{98d985f0-bb64-4b76-8ae2-21a2951ab152}, Name=扬声器 (C-Media(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=46.21
+[2023.07.19-06.12.50:637][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.07.19-06.12.50:638][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.19-06.13.07:316][157]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=耳机 (OPPO Enco X2), InstanceID=1
+[2023.07.19-06.13.07:639][157]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31024
+[2023.07.19-06.13.07:973][158]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c51156b0-ff24-4b7e-8809-6970064037cc}, Name=耳机 (OPPO Enco X2)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=37.88
+[2023.07.19-06.13.07:973][158]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.07.19-06.13.07:975][158]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.19-06.15.21:462][559]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=扬声器 (C-Media(R) Audio), InstanceID=1
+[2023.07.19-06.15.21:669][559]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31024
+[2023.07.19-06.15.22:004][560]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{98d985f0-bb64-4b76-8ae2-21a2951ab152}, Name=扬声器 (C-Media(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=70.00
+[2023.07.19-06.15.22:004][560]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.07.19-06.15.22:006][560]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB5F10EE-4905-2D2A-5A25-6592DB543AC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=e1912be34b33ca333c5a7e830e794e3c%7C039e23941eef44b184939f22aef4a328%7Cc59e9ae9-407b-456a-82b0-a9d5c356bc74&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: request failed, libcurl error: 35 (SSL connect error)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 0 (Connection 12 seems to be dead)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 1 (Closing connection 12)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 3 (  Trying 127.0.0.1:7890...)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 4 (Connected to 127.0.0.1 (127.0.0.1) port 7890 (#13))
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 5 (allocate connect buffer)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 6 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 7 (Proxy replied 200 to CONNECT request)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 8 (CONNECT phase completed)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 9 (ALPN: offers http/1.1)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 10 (SSL re-using session ID)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 11 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 12 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: 000007EFCA399600: libcurl info message cache 13 (Closing connection 13)
+[2023.07.19-06.28.54:888][880]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB5F10EE-4905-2D2A-5A25-6592DB543AC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=e1912be34b33ca333c5a7e830e794e3c%7C039e23941eef44b184939f22aef4a328%7Cc59e9ae9-407b-456a-82b0-a9d5c356bc74&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.07.19-06.34.56:679][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.07.19-06.34.56:681][ 13]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Untitled' took 0.031
+[2023.07.19-06.34.56:682][ 13]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BP_BaseMovement] ([2] browsable assets)...
+[2023.07.19-06.34.56:682][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_BaseMovement]
+[2023.07.19-06.34.56:682][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_BaseMovement" FILE="C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/BluePrints/BP_BaseMovement_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.07.19-06.34.56:697][ 13]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/BP_BaseMovement_Auto1
+[2023.07.19-06.34.56:697][ 13]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/BP_BaseMovement_Auto1D07A76B34269C722F86959B75EA20220.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/BluePrints/BP_BaseMovement_Auto1.uasset'
+[2023.07.19-06.34.56:698][ 13]LogFileHelpers: Auto-saving content packages took 0.017
+[2023.07.19-06.37.10:156][ 20]LogDerivedDataCache: C:/Users/3647/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.025 and deleted 0 files with total size 0 MiB. Scanned 11867 files in 11536 folders with total size 869 MiB.
+[2023.07.19-06.38.21:929][321]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.38.22:402][338]LogEditorTransaction: Undo 编辑5
+[2023.07.19-06.38.23:232][384]LogEditorTransaction: Undo 编辑4
+[2023.07.19-06.38.23:476][396]LogEditorTransaction: Undo 编辑3
+[2023.07.19-06.38.23:673][405]LogEditorTransaction: Undo 添加执行引脚
+[2023.07.19-06.39.20:365][758]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::MakeVector' [找不到元素。]
+[2023.07.19-06.39.26:626][123]BlueprintLog: New page: 编译BP_BaseMovement
+[2023.07.19-06.39.26:679][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.07.19-06.39.31:309][387]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.19-06.39.31:317][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.19-06.39.31:317][387]PIE: New page: PIE会话：Untitled（2023年7月19日 下午10:39:31）
+[2023.07.19-06.39.31:317][387]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.39.31:319][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001659s)
+[2023.07.19-06.39.31:319][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.001690s)
+[2023.07.19-06.39.31:319][387]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.39.31:320][387]LogAIModule: Creating AISystem for world Untitled
+[2023.07.19-06.39.31:320][387]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2023.07.19-06.39.31:347][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.07.19-06.39.31:352][387]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.19-06.39.31:352][387]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.19-06.39.31:352][387]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.19-06.39.31:352][387]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.19-06.39.31:352][387]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.19-06.39.31:352][387]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.19-06.39.31:354][387]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.19-06.39.31:371][387]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (C-Media(R) Audio)
+[2023.07.19-06.39.31:372][387]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.19-06.39.31:372][387]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.19-06.39.31:372][387]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.19-06.39.31:372][387]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2023.07.19-06.39.31:372][387]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2023.07.19-06.39.31:374][387]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2023.07.19-06.39.31:374][387]LogInit: FAudioDevice initialized.
+[2023.07.19-06.39.31:374][387]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2023.07.19-06.39.31:374][387]LogAudio: Display: Audio Device (ID: 47) registered with world 'Untitled'.
+[2023.07.19-06.39.31:377][387]LogLoad: Game class is 'GM_LockMouse_C'
+[2023.07.19-06.39.31:378][387]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2023.07.19-14.39.31
+[2023.07.19-06.39.31:378][387]LogWorld: Bringing up level for play took: 0.000580
+[2023.07.19-06.39.31:380][387]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.07.19-06.39.31:381][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.19-06.39.31:381][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.39.31:381][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.07.19-06.39.31:381][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.39.31:381][387]PIE: 登陆的服务器
+[2023.07.19-06.39.31:382][387]PIE: PIE总开始时间：0.068秒。
+[2023.07.19-06.39.42:062][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.39.42:062][ 22]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.39.42:063][ 22]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.19-06.39.42:063][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.39.42:079][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.19-06.39.42:082][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.39.42:109][ 22]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.19-06.39.42:109][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2023.07.19-06.39.42:110][ 22]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2023.07.19-06.39.42:114][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.39.42:116][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.07.19-06.39.42:139][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.07.19-06.42.25:218][223]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.25:620][239]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.25:990][257]LogEditorTransaction: Undo 创建引脚连接
+[2023.07.19-06.42.26:352][276]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.26:582][287]LogEditorTransaction: Undo 创建引脚连接
+[2023.07.19-06.42.26:859][301]LogEditorTransaction: Undo 创建引脚连接
+[2023.07.19-06.42.27:104][313]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.27:364][326]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.27:691][343]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.28:054][362]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.28:513][387]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.28:889][407]LogEditorTransaction: Undo 编辑2
+[2023.07.19-06.42.29:272][421]LogEditorTransaction: Undo 编辑1
+[2023.07.19-06.42.29:629][437]LogEditorTransaction: Undo 编辑0
+[2023.07.19-06.42.29:905][451]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.42.30:633][492]LogEditorTransaction: Undo 粘贴剪切板内容
+[2023.07.19-06.42.51:816][760]BlueprintLog: New page: 编译BP_BaseMovement
+[2023.07.19-06.42.51:871][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.07.19-06.47.35:220][517]LogEditorTransaction: Undo 提升为变量
+[2023.07.19-06.49.30:164][255]LogEditorTransaction: Undo 移动节点
+[2023.07.19-06.49.30:945][290]LogEditorTransaction: Undo 分割结构体引脚
+[2023.07.19-06.54.15:632][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.07.19-06.54.15:637][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Untitled" FILE="C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.07.19-06.54.15:643][158]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Untitled_Auto2
+[2023.07.19-06.54.15:643][158]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Untitled_Auto277C6B84F4B887A35FA7DF4945E637484.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/Maps/Untitled_Auto2.umap'
+[2023.07.19-06.54.15:651][158]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Untitled' took 0.050
+[2023.07.19-06.54.15:651][158]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2023.07.19-06.54.15:651][158]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BP_BaseMovement] ([2] browsable assets)...
+[2023.07.19-06.54.15:651][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_BaseMovement]
+[2023.07.19-06.54.15:651][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_BaseMovement" FILE="C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/BluePrints/BP_BaseMovement_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.07.19-06.54.15:671][158]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/BP_BaseMovement_Auto2
+[2023.07.19-06.54.15:671][158]LogSavePackage: Moving 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/BP_BaseMovement_Auto2AF1DB4EB4E5B4B15CB287D9BF6995A01.tmp' to 'C:/Users/3647/Desktop/ue_work/UE_Runtime/Saved/Autosaves/Game/BluePrints/BP_BaseMovement_Auto2.uasset'
+[2023.07.19-06.54.15:672][158]LogFileHelpers: Auto-saving content packages took 0.021
+[2023.07.19-06.54.40:531][640]BlueprintLog: New page: 编译BP_BaseMovement
+[2023.07.19-06.54.40:585][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.19-06.54.48:974][130]BlueprintLog: New page: 编译BP_BaseMovement
+[2023.07.19-06.54.49:026][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.07.19-06.54.51:529][265]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.19-06.54.51:535][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.19-06.54.51:535][265]PIE: New page: PIE会话：Untitled（2023年7月19日 下午10:54:51）
+[2023.07.19-06.54.51:535][265]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.54.51:537][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001715s)
+[2023.07.19-06.54.51:538][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.001745s)
+[2023.07.19-06.54.51:538][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.54.51:538][265]LogAIModule: Creating AISystem for world Untitled
+[2023.07.19-06.54.51:538][265]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2023.07.19-06.54.51:567][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.07.19-06.54.51:572][265]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.19-06.54.51:572][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.19-06.54.51:572][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.19-06.54.51:572][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.19-06.54.51:572][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.19-06.54.51:572][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.19-06.54.51:575][265]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.19-06.54.51:592][265]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (C-Media(R) Audio)
+[2023.07.19-06.54.51:593][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.19-06.54.51:593][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.19-06.54.51:593][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.19-06.54.51:594][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2023.07.19-06.54.51:594][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2023.07.19-06.54.51:595][265]LogInit: FAudioDevice initialized.
+[2023.07.19-06.54.51:595][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2023.07.19-06.54.51:595][265]LogAudio: Display: Audio Device (ID: 48) registered with world 'Untitled'.
+[2023.07.19-06.54.51:595][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2023.07.19-06.54.51:599][265]LogLoad: Game class is 'GM_LockMouse_C'
+[2023.07.19-06.54.51:599][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2023.07.19-14.54.51
+[2023.07.19-06.54.51:599][265]LogWorld: Bringing up level for play took: 0.000611
+[2023.07.19-06.54.51:601][265]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.07.19-06.54.51:602][265]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.19-06.54.51:602][265]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.54.51:602][265]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.07.19-06.54.51:602][265]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.54.51:603][265]PIE: 登陆的服务器
+[2023.07.19-06.54.51:603][265]PIE: PIE总开始时间：0.07秒。
+[2023.07.19-06.54.56:219][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.54.56:219][536]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.54.56:219][536]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.19-06.54.56:219][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.54.56:235][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.19-06.54.56:239][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.54.56:266][536]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.19-06.54.56:266][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2023.07.19-06.54.56:267][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2023.07.19-06.54.56:271][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.54.56:273][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.07.19-06.54.56:303][537]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.07.19-06.55.00:042][758]BlueprintLog: New page: 编译BP_BaseMovement
+[2023.07.19-06.55.00:093][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.07.19-06.55.01:601][839]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.19-06.55.01:607][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.19-06.55.01:607][839]PIE: New page: PIE会话：Untitled（2023年7月19日 下午10:55:01）
+[2023.07.19-06.55.01:608][839]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.55.01:609][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001707s)
+[2023.07.19-06.55.01:609][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.001741s)
+[2023.07.19-06.55.01:609][839]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.55.01:610][839]LogAIModule: Creating AISystem for world Untitled
+[2023.07.19-06.55.01:610][839]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2023.07.19-06.55.01:641][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.07.19-06.55.01:643][839]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.19-06.55.01:644][839]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.19-06.55.01:644][839]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.19-06.55.01:644][839]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.19-06.55.01:644][839]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.19-06.55.01:644][839]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.19-06.55.01:646][839]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.19-06.55.01:662][839]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (C-Media(R) Audio)
+[2023.07.19-06.55.01:662][839]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.19-06.55.01:662][839]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.19-06.55.01:662][839]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.19-06.55.01:663][839]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2023.07.19-06.55.01:663][839]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2023.07.19-06.55.01:665][839]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2023.07.19-06.55.01:665][839]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2023.07.19-06.55.01:665][839]LogInit: FAudioDevice initialized.
+[2023.07.19-06.55.01:665][839]LogAudio: Display: Audio Device (ID: 49) registered with world 'Untitled'.
+[2023.07.19-06.55.01:668][839]LogLoad: Game class is 'GM_LockMouse_C'
+[2023.07.19-06.55.01:668][839]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2023.07.19-14.55.01
+[2023.07.19-06.55.01:669][839]LogWorld: Bringing up level for play took: 0.000685
+[2023.07.19-06.55.01:671][839]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.07.19-06.55.01:671][839]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.19-06.55.01:671][839]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.55.01:671][839]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.07.19-06.55.01:671][839]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.55.01:672][839]PIE: 登陆的服务器
+[2023.07.19-06.55.01:672][839]PIE: PIE总开始时间：0.067秒。
+[2023.07.19-06.55.06:568][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.55.06:568][127]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.55.06:568][127]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.19-06.55.06:568][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.55.06:585][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.19-06.55.06:589][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.55.06:617][127]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.19-06.55.06:617][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.07.19-06.55.06:618][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.07.19-06.55.06:623][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.55.06:625][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.07.19-06.55.06:657][128]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.07.19-06.55.09:559][300]BlueprintLog: New page: 编译BP_BaseMovement
+[2023.07.19-06.55.09:611][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.19-06.55.10:461][347]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.07.19-06.55.10:466][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.19-06.55.10:467][347]PIE: New page: PIE会话：Untitled（2023年7月19日 下午10:55:10）
+[2023.07.19-06.55.10:467][347]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.55.10:468][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001794s)
+[2023.07.19-06.55.10:468][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.001826s)
+[2023.07.19-06.55.10:469][347]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.19-06.55.10:469][347]LogAIModule: Creating AISystem for world Untitled
+[2023.07.19-06.55.10:469][347]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2023.07.19-06.55.10:496][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.19-06.55.10:499][347]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.19-06.55.10:499][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.19-06.55.10:499][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.19-06.55.10:499][347]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.19-06.55.10:499][347]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.19-06.55.10:499][347]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.19-06.55.10:501][347]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.19-06.55.10:517][347]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (C-Media(R) Audio)
+[2023.07.19-06.55.10:518][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.19-06.55.10:518][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.19-06.55.10:518][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.19-06.55.10:518][347]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2023.07.19-06.55.10:518][347]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2023.07.19-06.55.10:520][347]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2023.07.19-06.55.10:520][347]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2023.07.19-06.55.10:520][347]LogInit: FAudioDevice initialized.
+[2023.07.19-06.55.10:520][347]LogAudio: Display: Audio Device (ID: 50) registered with world 'Untitled'.
+[2023.07.19-06.55.10:523][347]LogLoad: Game class is 'GM_LockMouse_C'
+[2023.07.19-06.55.10:524][347]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2023.07.19-14.55.10
+[2023.07.19-06.55.10:524][347]LogWorld: Bringing up level for play took: 0.000565
+[2023.07.19-06.55.10:525][347]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.07.19-06.55.10:527][347]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.19-06.55.10:527][347]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.55.10:527][347]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.07.19-06.55.10:527][347]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.07.19-06.55.10:527][347]PIE: 登陆的服务器
+[2023.07.19-06.55.10:528][347]PIE: PIE总开始时间：0.063秒。
+[2023.07.19-06.55.18:229][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.55.18:229][803]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Untitled
+[2023.07.19-06.55.18:229][803]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.07.19-06.55.18:229][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.55.18:245][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.19-06.55.18:249][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.19-06.55.18:275][803]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.19-06.55.18:275][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.07.19-06.55.18:276][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.07.19-06.55.18:280][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.19-06.55.18:282][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.19-06.55.18:314][804]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB5F10EE-4905-2D2A-5A25-6592DB543AC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=e1912be34b33ca333c5a7e830e794e3c%7C039e23941eef44b184939f22aef4a328%7Cc59e9ae9-407b-456a-82b0-a9d5c356bc74&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 0 (Found bundle for host: 0x7ef64160c00 [serially])
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 1 (Re-using existing connection #14 with proxy 127.0.0.1)
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 2 (Connected to 127.0.0.1 (127.0.0.1) port 7890 (#14))
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 6 (Closing connection 14)
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: 000007EFA0BD1400: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.07.19-06.56.55:097][ 48]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB5F10EE-4905-2D2A-5A25-6592DB543AC3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=e1912be34b33ca333c5a7e830e794e3c%7C039e23941eef44b184939f22aef4a328%7Cc59e9ae9-407b-456a-82b0-a9d5c356bc74&AppEnvironment=datacollector-binary&UploadType=eteventstream
